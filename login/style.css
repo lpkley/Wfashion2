@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: url(imgs/back.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -ms-background-size: cover; 
+    -o-background-size: cover; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    position: sticky;  
+}
+
+img{
+    padding-top: 15px;
+    width: 100%;
+}
+
+
+.imageLogo{
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 25px;    
+}
+.geral{
+    height: 550px;
+}
+
+.login {
+   width: 400px;
+   height: 450px;
+   background-color: rgb(226, 43, 43);
+   background: -webkit-linear-gradient(top, #E24C4D, #CD2324);
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   margin: 0;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius:10px;
+   overflow: hidden;
+   
+   
+}
+
+.campos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.bemvindo {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.esq {
+    font-size: 11px;
+    font-style: oblique;
+    margin-top: 1px;
+    margin-left: 55%;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px white;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 30px;
+    outline: none;
+    margin-top:10px;
+}
+
+button {
+    margin-top: 35px;
+    outline: none;
+}  
+
+#botao{
+    width: 125px;
+    height: 35px;
+    background-color: white;
+    color: #b224ef;
+    border: 0;
+    -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius:10px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+#botao  span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#botao span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+}
+
+#botao:hover span {
+    padding-right: 25px;
+  }
+
+#botao:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+#cpfcnpj {
+    margin-bottom: 20px;
+    
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    object-position: bottom;
+}
+
+::-webkit-input-placeholder { 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+::-moz-placeholder { 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+:-ms-input-placeholder { 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+:-moz-placeholder { 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
